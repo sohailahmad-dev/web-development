@@ -25,11 +25,11 @@ cards.forEach(function (card) {
             showLessButton.addEventListener("click", function () {
                 content.innerHTML = truncatedHtml;
                 content.appendChild(readMoreElement);
-                content.removeChild(showLessButton);
+                // content.removeChild(showLessButton);
             });
 
             content.appendChild(showLessButton);
-            content.removeChild(readMoreElement);
+            // content.removeChild(readMoreElement);
         });
     }
 });
